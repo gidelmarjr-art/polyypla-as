@@ -20,18 +20,6 @@ O **Polypla** foi desenvolvido para facilitar o estudo bíblico aprofundado, per
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-
-* **HTML5 / CSS3** (com variáveis customizadas, Flexbox e Grid)
-* **JavaScript** (lógica da aplicação e manipulação do DOM)
-* **Vite** (como ferramenta de build e ambiente de desenvolvimento rápido)
-* **Netlify** (hospedagem e deploy contínuo)
-
----
-
-## ⚙️ Como Executar o Projeto Localmente
-
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/gidelmarjr-art/Polypla.git](https://github.com/gidelmarjr-art/Polypla.git)
+- **React** (com Framework moderno)
+- **CSS Modules / Tailwind CSS** (ou estilização componentizada)
+- **Vercel** (Hospedagem e CI/CD)
