@@ -1,30 +1,34 @@
-# 📖 Polypla (Bíblia Quádrupla)
+# 📖 Polypla — Aplicativo de Comparação Bíblica Quádrupla
 
-> Um aplicativo web moderno para leitura e comparação simultânea de múltiplos textos e traduções bíblicas lado a lado.
-
----
-
-## 🚀 Sobre o Projeto
-
-O **Polypla** foi desenvolvido para facilitar o estudo bíblico aprofundado, permitindo que o usuário visualize e compare diferentes versões (como NVI, NAA, ARA, ARC) de forma síncrona e organizada em um layout limpo de colunas.
+Um aplicativo web moderno e intuitivo desenvolvido para facilitar o estudo bíblico aprofundado, permitindo a leitura e a comparação simultânea de múltiplos textos e traduções lado a lado.
 
 ---
 
-## ✨ Funcionalidades
+## 📸 Demonstração do Projeto
 
-* **Visualização Multiversão:** Exibição de até 4 traduções simultâneas lado a lado.
-* **Sincronização de Leitura:** Rolagem e navegação integradas entre as versões.
-* **Modo Escuro / Claro:** Alternância de temas para uma leitura confortável em qualquer ambiente.
-* **Interface Responsiva & Fluida:** Layout adaptado para diferentes tamanhos de tela com rolagem horizontal otimizada.
+<div align="center">
+  <img src="public/polypla.png" alt="Polypla Dashboard Preview" width="100%" />
+</div>
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
-* **HTML5 / CSS3** (com variáveis customizadas, Flexbox e Grid)
-* **JavaScript** (lógica da aplicação e manipulação do DOM)
-* **Vite** (como ferramenta de build e ambiente de desenvolvimento rápido)
-* **Netlify** (hospedagem e deploy contínuo)
+Este projeto foi construído utilizando tecnologias modernas do ecossistema front-end:
+
+* **Framework/Biblioteca:** React / JavaScript, Vite
+* **Estilização:** CSS3 (com variáveis customizadas, Flexbox e Grid) e Tailwind CSS
+* **Gerenciamento de Estado:** Zustand
+* **Hospedagem & Deploy:** Vercel / Netlify
+
+---
+
+## ⚙️ Principais Funcionalidades
+
+* **Visualização Multiversão:** Exibição dinâmica de até 4 traduções simultâneas (como NVI, NAA, ARA, ARC) lado a lado.
+* **Sincronização de Leitura:** Rolagem e navegação integradas de forma síncrona entre as diferentes versões.
+* **Modo Escuro / Claro:** Alternância de temas para garantir uma leitura confortável em qualquer ambiente.
+* **Interface Responsiva & Fluida:** Layout adaptado para diferentes tamanhos de tela com rolagem horizontal otimizada e navegação ágil.
 
 ---
 
