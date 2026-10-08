@@ -23,6 +23,7 @@ Este projeto foi construído utilizando tecnologias modernas do ecossistema fron
 
 ---
 
+<<<<<<< HEAD
 ## ⚙️ Principais Funcionalidades
 
 * **Visualização Multiversão:** Exibição dinâmica de até 4 traduções simultâneas (como NVI, NAA, ARA, ARC) lado a lado.
@@ -31,11 +32,8 @@ Este projeto foi construído utilizando tecnologias modernas do ecossistema fron
 * **Interface Responsiva & Fluida:** Layout adaptado para diferentes tamanhos de tela com rolagem horizontal otimizada e navegação ágil.
 
 ---
-
-## ⚙️ Como Executar o Projeto Localmente
-
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/gidelmarjr-art/Polypla.git](https://github.com/gidelmarjr-art/Polypla.git)
+## 🛠️ Tecnologias Utilizadas
+- **React** (com Framework moderno)
+- **CSS Modules / Tailwind CSS** (ou estilização componentizada)
+- **Vercel** (Hospedagem e CI/CD)
+>>>>>>> db8273c9a8dc0d927f3ae573170840482714131e
