@@ -7,7 +7,7 @@ Um aplicativo web moderno e intuitivo desenvolvido para facilitar o estudo bíbl
 ## 📸 Demonstração do Projeto
 
 <div align="center">
-  <img src="public/polypla.png" alt="Polypla Dashboard Preview" width="100%" />
+  <img src="polyypla-as/polypla.png" alt="Polypla Dashboard Preview" width="100%" />
 </div>
 
 ---
