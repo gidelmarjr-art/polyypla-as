@@ -5,6 +5,7 @@ import { HeroHome } from "./components/HeroHome";
 import { useBibleStore } from "./store/bibleStore";
 
 export default function App() {
+  // Puxa as 6 versões da store do Zustand
   const { ara, loadBibles } = useBibleStore();
 
   useEffect(() => {
@@ -23,7 +24,7 @@ export default function App() {
 
   const currentBookData = ara[book] || { chapters: [] };
 
-  // Refs das 4 colunas para sincronizar o scroll entre elas
+  // Refs das 6 colunas para sincronizar o scroll entre elas
   const columnRefs = useRef([]);
   const isSyncingScroll = useRef(false);
 
@@ -121,47 +122,67 @@ export default function App() {
         </div>
       </div>
 
-      {/* 3. Corpo Principal com as Colunas da Bíblia */}
+      {/* 3. Corpo Principal com as 6 Colunas da Bíblia */}
       <div className="bible-container w-100 px-3 mb-5">
-        <BibleColumn 
+        <BibleColumn
           key={`nvi-${book}-${chapter}`}
           ref={(el) => (columnRefs.current[0] = el)}
           onScroll={handleColumnScroll(0)}
-          book={book} 
-          chapter={chapter} 
-          defaultVersion="nvi" 
+          book={book}
+          chapter={chapter}
+          defaultVersion="nvi"
           theme={theme}
-          style={{ height: '85vh' }} 
+          style={{ height: "85vh" }}
         />
-        <BibleColumn 
+        <BibleColumn
           key={`naa-${book}-${chapter}`}
           ref={(el) => (columnRefs.current[1] = el)}
           onScroll={handleColumnScroll(1)}
-          book={book} 
-          chapter={chapter} 
-          defaultVersion="naa" 
+          book={book}
+          chapter={chapter}
+          defaultVersion="naa"
           theme={theme}
-          style={{ height: '85vh' }} 
+          style={{ height: "85vh" }}
         />
-        <BibleColumn 
+        <BibleColumn
           key={`ara-${book}-${chapter}`}
           ref={(el) => (columnRefs.current[2] = el)}
           onScroll={handleColumnScroll(2)}
-          book={book} 
-          chapter={chapter} 
-          defaultVersion="ara" 
+          book={book}
+          chapter={chapter}
+          defaultVersion="ara"
           theme={theme}
-          style={{ height: '85vh' }} 
+          style={{ height: "85vh" }}
         />
-        <BibleColumn 
+        <BibleColumn
           key={`arc-${book}-${chapter}`}
           ref={(el) => (columnRefs.current[3] = el)}
           onScroll={handleColumnScroll(3)}
-          book={book} 
-          chapter={chapter} 
-          defaultVersion="arc" 
+          book={book}
+          chapter={chapter}
+          defaultVersion="arc"
           theme={theme}
-          style={{ height: '85vh' }} 
+          style={{ height: "85vh" }}
+        />
+        <BibleColumn
+          key={`aa-${book}-${chapter}`}
+          ref={(el) => (columnRefs.current[4] = el)}
+          onScroll={handleColumnScroll(4)}
+          book={book}
+          chapter={chapter}
+          defaultVersion="aa"
+          theme={theme}
+          style={{ height: "85vh" }}
+        />
+        <BibleColumn
+          key={`acf-${book}-${chapter}`}
+          ref={(el) => (columnRefs.current[5] = el)}
+          onScroll={handleColumnScroll(5)}
+          book={book}
+          chapter={chapter}
+          defaultVersion="acf"
+          theme={theme}
+          style={{ height: "85vh" }}
         />
       </div>
 
